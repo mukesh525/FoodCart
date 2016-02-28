@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LogIn">
+
+    <item
+        android:id="@+id/cart"
+        app:actionLayout="@layout/cart"
+        android:title="Cart"
+        android:icon="@drawable/cartc"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"></item>
+
+
+</menu>

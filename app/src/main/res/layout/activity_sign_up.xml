@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eelocomescreen"
+   tools:context="com.mukesh.mealorder.SignUp">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+<ScrollView
+    android:layout_below="@+id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#90262525"
+        android:orientation="vertical"
+
+        android:weightSum="1">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:maxLength="10"
+            android:id="@+id/RegUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Username*"
+            android:padding="10dp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/RegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Password*"
+            android:padding="10dp"
+            android:password="true"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/RegPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Retype-Password*"
+            android:padding="10dp"
+            android:password="true"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/RegFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="First Name*"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/RegLasttName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Last Name*"
+            android:inputType="text"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/RegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Phone*"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/RegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:gravity="center"
+            android:hint="Email*"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#F50C0C"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="SignUp"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

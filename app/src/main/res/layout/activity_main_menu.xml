@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/eelocomescreen"
+    tools:context="com.mukesh.mealorder.MainMenu">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90262525"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/texthead"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hi"
+            android:textStyle="bold"
+            android:textColor="#E1BEE7"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Menu"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/salad"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#C62828"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="20dp"
+            android:text="SALADS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chinese"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/drinks"
+            android:layout_alignStart="@+id/drinks"
+            android:layout_below="@+id/salad"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#5C6BC0"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="10dp"
+            android:text="CHINESE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chicken"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/salad"
+            android:layout_alignLeft="@+id/salad"
+            android:layout_alignRight="@+id/salad"
+            android:layout_alignStart="@+id/salad"
+            android:layout_below="@+id/chinese"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#827717"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="20dp"
+            android:text="CHICKEN"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/drinks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/chicken"
+            android:layout_alignRight="@+id/chicken"
+            android:layout_below="@+id/chicken"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#4CA047"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="20dp"
+            android:text="DRINKS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
